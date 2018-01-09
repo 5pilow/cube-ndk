@@ -132,7 +132,7 @@ void Java_com_gorglucks_cubendk_GLView_nativeRender(JNIEnv* env) {
 	glNormalPointer(GL_FLOAT, 0, normals);
 
 	// Translate along the z axis
-	glTranslatef(0.0f, 0.0f, -4.5f);
+	glTranslatef(0.0f, 0.0f, -7.f);
 
 	// Rotate the cube
 	glRotatef(rotate * 1.0f, 1,0,0);
